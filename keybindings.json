@@ -1,6 +1,5 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-  // switch tabs
   {
     "key": "cmd+l",
     "command": "workbench.action.nextEditor",
@@ -9,7 +8,6 @@
     "key": "cmd+h",
     "command": "workbench.action.previousEditor",
   },
-  // terminal
   {
     "key": "cmd+l",
     "command": "workbench.action.terminal.focusNext",
@@ -49,7 +47,6 @@
     "command": "search.action.focusPreviousSearchResult",
     "when": "searchViewletVisible"
   },
-  // editor
   {
     "key": "cmd-e",
     "command": "workbench.view.explorer",
