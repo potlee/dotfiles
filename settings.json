@@ -1,0 +1,169 @@
+{
+  "python.formatting.provider": "autopep8",
+  "editor.overviewRulerBorder": false,
+  "vim.highlightedyank.enable": true,
+  "editor.renderIndentGuides": false,
+  "git.showInlineOpenFileAction": false,
+  "workbench.editor.showIcons": false,
+  "eslint.autoFixOnSave": true,
+  "workbench.list.automaticKeyboardNavigation": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerLanes": 0,
+  "editor.formatOnSave": false,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "json",
+      "autoFix": true,
+    }
+  ],
+  "eslint.run": "onType",
+  "debug.openDebug": "neverOpen",
+  "debug.showInStatusBar": "never",
+  "debug.toolBarLocation": "hidden",
+  "editor.cursorBlinking": "solid",
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.glyphMargin": false,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "git.decorations.enabled": false,
+  "python.envFile": "${workspaceFolder}/env",
+  "vim.easymotion": true,
+  "vim.showcmd": true,
+  "vim.visualstar": true,
+  "window.restoreFullscreen": true,
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Gruvbox Dark Soft",
+  "workbench.panel.defaultLocation": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "g",
+        "m"
+      ],
+      "commands": [
+        "editor.action.jumpToBracket"
+      ]
+    },
+    {
+      "before": [
+        "="
+      ],
+      "commands": [
+        "editor.action.formatSelection"
+      ]
+    },
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "s"
+      ],
+      "after": [
+        "v",
+        "i",
+        "w"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "d"
+      ],
+      "commands": [
+        "editor.action.revealDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "p"
+      ],
+      "commands": [
+        "editor.action.marker.nextInFiles"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "t"
+      ],
+      "commands": [
+        "workbench.action.terminal.focus"
+      ]
+    }
+  ],
+  "editor.hideCursorInOverviewRuler": true,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "vim.leader": "m",
+  "workbench.colorCustomizations": {
+    "panel.background": "#000",
+    "sideBar.background": "#000",
+    "tab.activeBackground": "#000000",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#000000",
+    "editorGroupHeader.tabsBackground": "#000",
+    "editorGroupHeader.tabsBorder": "#000",
+    "titleBar.activeBackground": "#000",
+    "editorGroup.emptyBackground": "#000000",
+    "editor.background": "#000000",
+    "terminal.background": "#000000",
+    "statusBar.background": "#000",
+    "statusBar.noFolderBackground": "#000",
+    "statusBar.debuggingBackground": "#000"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "search.exclude": {
+    "build": true
+  },
+  "breadcrumbs.enabled": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "search.location": "sidebar",
+  "editor.lineNumbers": "off",
+  "workbench.statusBar.visible": false,
+  "vim.searchHighlightColor": "#dddddd",
+  "terminal.integrated.scrollback": 2000,
+  "workbench.sideBar.location": "left",
+  "rust.all_features": true,
+  "terminal.integrated.rendererType": "dom",
+  "gitblame.statusBarMessageFormat": " ${author.name}",
+  "gitblame.statusBarMessageNoCommit": "-",
+  "typescript.experimental.useSeparateSyntaxServer": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+}
